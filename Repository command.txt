@@ -1,0 +1,53 @@
+patty@LAPTOP-N5C0UA49 MINGW64 ~
+$ cd /c/Users/patty/Documents/GIT
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT
+$ git init
+Initialized empty Git repository in C:/Users/patty/Documents/GIT/.git/
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT
+$ git config --global user.name "shirleyinqd21"
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT
+$ git config --global user.email shirley.zhao.ny@gmail.com
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT
+$ git clone https://github.com/shirleyinqd21/Test1.git                         --clone git repository to local
+Cloning into 'Test1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+cd
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT
+$ cd Test1/
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)
+$ git add  'Repository command.txt'                                             --add file to Git 
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Repository command.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Repository command.txt
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)                      --commit file
+$ git commit -m "Test Commit" 'Repository command.txt'
+[main 495a89e] Test Commit2
+ 1 file changed, 25 insertions(+), 2 deletions(-)
+
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)                      --commit file
+$ git push -u origin master
+
+
+
+
+
