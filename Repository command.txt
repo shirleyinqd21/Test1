@@ -44,8 +44,20 @@ $ git commit -m "Test Commit" 'Repository command.txt'
 [main 495a89e] Test Commit2
  1 file changed, 25 insertions(+), 2 deletions(-)
 
-patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)                      --commit file
-$ git push -u origin master
+patty@LAPTOP-N5C0UA49 MINGW64 ~/Documents/GIT/Test1 (main)                      --load file to remote repository
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 925 bytes | 925.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shirleyinqd21/Test1.git
+   9af9039..19e8ef1  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
 
 
 
